@@ -18,20 +18,24 @@
         <button id="agregarIngreso">Registrar Ingreso</button>
 
         <h3>REGISTRAR GASTOS</h3>
-        <label for="categoria">Categoría:</label>
-        <select id="categoria">
-            <option value="alquiler">Alquiler</option>
-            <option value="comida">Comida</option>
-            <option value="transporte">Transporte</option>
-            <option value="otros">Otros</option>
-        </select>
+        <div class="row">
+            <label for="categoria" class="categoria">Categoría:</label>
+            <select id="categoria">
+                <option value="alquiler">Alquiler</option>
+                <option value="comida">Comida</option>
+                <option value="transporte">Transporte</option>
+                <option value="otros">Otros</option>
+            </select>
 
-        <label for="subcategoria">Subcategoría:</label>
-        <select id="subcategoria" disabled></select>
-        
-        <label for="gasto" class="monto">Monto:</label>
-        <input type="number" id="gasto" placeholder="Ej: 40000" />
-        <button id="agregarGasto">Registrar Gasto</button>
+            <label for="subcategoria" class="subcategoria">Subcategoría:</label>
+            <select id="subcategoria" disabled></select>
+        </div>
+
+        <div class="row">
+            <label for="gasto" class="monto">Monto:</label>
+            <input type="number" id="gasto" placeholder="Ej: 40000" />
+            <button id="agregarGasto">Registrar Gasto</button>
+        </div>
 
         <div id="resultado"></div>
         <div id="listaGastos" style="display: none;">
