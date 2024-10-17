@@ -9,7 +9,7 @@ Este proyecto es un **simulador de gastos** que permite a los usuarios gestionar
 - **Evaluación Financiera**: Indica si el usuario está en déficit o en equilibrio con su dinero, permitiéndole agregar su ingreso mensual y gastos con 2 sub-categorías en cada una de las 4 categorías disponibles.
 - **Persistencia de Datos**: Utiliza localStorage para que los datos no se reinicien al recargar la página.
 - **Reinicio de Datos**: Implementa un botón que permite al usuario reiniciar los datos y realizar nuevas consultas si lo desea.
-- **Botón para eliminar gastos**: Permite al usuario eliminar gastos ingresados, lo que actualiza automáticamente el total de gastos, el saldo (positivo o negativo) y su situación financiera.
+- **Botón para eliminar gastos**: Permite al usuario eliminar gastos ingresados  individualmente, lo que actualiza automáticamente el total de gastos, el saldo (positivo o negativo) y su situación financiera.
 
 ## Tecnologías utilizadas
 
