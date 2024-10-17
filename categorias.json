@@ -1,0 +1,18 @@
+{
+    "alquiler": {
+        "renta": 0,
+        "servicios": 0
+    },
+    "comida": {
+        "necesario": 0,
+        "antojos": 0
+    },
+    "transporte": {
+        "subte": 0,
+        "tren": 0
+    },
+    "otros": {
+        "entretenimiento": 0,
+        "compras": 0
+    }
+}

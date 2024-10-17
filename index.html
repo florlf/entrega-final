@@ -6,6 +6,8 @@
     <title>Simulador de Gastos Mensuales</title>
     <link rel="icon" href="./assets/img/money-dollar.svg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 </head>
 <body>
     <div class="container">
@@ -23,15 +25,23 @@
             <option value="transporte">Transporte</option>
             <option value="otros">Otros</option>
         </select>
+
+        <label for="subcategoria">Subcategoría:</label>
+        <select id="subcategoria" disabled></select>
         
         <label for="gasto" class="monto">Monto:</label>
         <input type="number" id="gasto" placeholder="Ej: 40000" />
         <button id="agregarGasto">Registrar Gasto</button>
 
         <div id="resultado"></div>
+        <div id="listaGastos" style="display: none;">
+            <h4>RESUMEN:</h4>
+            <ul id="resumen"></ul>
+        </div>
 
         <button id="reiniciar">Reiniciar Datos</button>
     </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="script.js"></script>
 </body>
 </html>
