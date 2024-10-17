@@ -25,4 +25,4 @@ Este proyecto es un **simulador de gastos** que permite a los usuarios gestionar
 
 - **Font Awesome (versión 6 beta)**
    - Para íconos de la interfaz.
-   - **Documentación**: Versión 6.0.0-beta3 - https://fontawesome.com/docs/web/setup/quick-start
+   - **Documentación**: Versión 6.0.0-beta3 - https://fontawesome.com/docs/web/setup/quick-start](https://docs.fontawesome.com/web
